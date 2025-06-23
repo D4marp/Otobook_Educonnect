@@ -1,5 +1,7 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useRef } from "react";
+import bluelogo from "../assets/bluelogo.svg";
+import img2 from "../assets/img2.webp";
 
 const ImageZoom = () => {
   const scrollRef = useRef(null);
@@ -18,13 +20,13 @@ const ImageZoom = () => {
   );
 
   const marqueeLogo = [
-    "/src/assets/bluelogo.svg",
-    "/src/assets/bluelogo.svg",
-    "/src/assets/bluelogo.svg",
-    "/src/assets/bluelogo.svg",
-    "/src/assets/bluelogo.svg",
-    "/src/assets/bluelogo.svg",
-    "/src/assets/bluelogo.svg",
+    bluelogo,
+    bluelogo,
+    bluelogo,
+    bluelogo,
+    bluelogo,
+    bluelogo,
+    bluelogo,
   ];
 
   return (
@@ -33,7 +35,7 @@ const ImageZoom = () => {
         <div className="absolute inset-0 -z-10 ">
           <div className="absolute z-1 inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/10 to-white/10" />
           <img
-            src="../src/assets/img2.webp"
+            src={img2}
             loading="lazy"
             className="h-screen w-full object-cover"
           />

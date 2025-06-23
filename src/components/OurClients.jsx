@@ -1,16 +1,27 @@
 import { motion } from "framer-motion";
 
+// Import semua gambar
+import vivaLogo from "/src/assets/viva.webp";
+import pensLogo from "/src/assets/pens.png";
+import nssLogo from "/src/assets/nss.png";
+import perpusLogo from "/src/assets/perpus.png";
+import studyoLogo from "/src/assets/studyo.png";
+import tulungLogo from "/src/assets/tulung.png";
+import logo07 from "/src/assets/logo07.svg";
+import fmBlueLogo from "/src/assets/fm_blue.png";
+import downloadLogo from "/src/assets/download.png";
+
 const OurClients = () => {
   const logoClients = [
-    "/src/assets/viva.webp",
-    "/src/assets/pens.png",
-    "/src/assets/nss.png",
-    "/src/assets/perpus.png",
-    "/src/assets/studyo.png",
-    "/src/assets/tulung.png",
-    "/src/assets/logo07.svg",
-    "/src/assets/fm_blue.png",
-    "/src/assets/download.png",
+    vivaLogo,
+    pensLogo,
+    nssLogo,
+    perpusLogo,
+    studyoLogo,
+    tulungLogo,
+    logo07,
+    fmBlueLogo,
+    downloadLogo,
   ];
 
   return (
@@ -29,6 +40,7 @@ const OurClients = () => {
                 className="h-10 w-56 saturate-0 hover:saturate-100 lg:h-fit lg:w-60 pr-10 lg:pr-20"
                 src={image}
                 key={index}
+                alt={`Client logo ${index + 1}`}
               />
             );
           })}
@@ -38,7 +50,7 @@ const OurClients = () => {
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
-          className="flex flex-shrink-0  items-center"
+          className="flex flex-shrink-0 items-center"
         >
           {logoClients.map((image, index) => {
             return (
@@ -47,6 +59,7 @@ const OurClients = () => {
                 className="h-10 w-fit saturate-0 hover:saturate-100 lg:h-fit lg:w-60 pr-10 lg:pr-20"
                 src={image}
                 key={index}
+                alt={`Client logo ${index + 1}`}
               />
             );
           })}

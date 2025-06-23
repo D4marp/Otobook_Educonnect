@@ -1,3 +1,5 @@
+import img3 from '/src/assets/img3.webp';
+
 const ChooseUs = () => {
   return (
     <div className="relative min-h-screen bg-[#1a1a1a] py-20 md:py-0 md:pt-75 md:pb-50 px-4 md:px-30 overflow-hidden">
@@ -22,7 +24,7 @@ const ChooseUs = () => {
           Kami percaya kolaborasi, transparansi, dan pendekatan personal adalah kunci keberhasilan digitalisasi di institusi Anda.
         </p>
         <img
-          src="/src/assets/img3.webp"
+          src={img3}
           alt="Mengapa Memilih Otobook"
           className="object-cover h-[450px] w-full md:w-[400px] rounded-xl order-1 md:order-2"
         />

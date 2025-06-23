@@ -5,6 +5,7 @@ import iclinked from "../assets/iconlinkedin.svg";
 import icig from "../assets/iconig.svg";
 import icx from "../assets/iconx.svg";
 import icfacebook from "../assets/iconfb.svg";
+import bluelogo from "../assets/bluelogo.svg";
 
 const Footer = () => {
   return (
@@ -69,7 +70,7 @@ const Footer = () => {
                 </div>
                 {/* logo */}
           <div className="flex w-full pt-20 md:pt-0 justify-start md:justify-end items-start">
-            <img src="../src/assets/bluelogo.svg" loading="lazy" />
+            <img src={bluelogo} loading="lazy" />
           </div>
         </div>
 

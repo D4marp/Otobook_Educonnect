@@ -17,9 +17,9 @@ const dataServices = [
   },
   {
     id: 3,
-    service: "Sistem Otomatisasi & OCR Buku",
+    service: "Sistem Otomatisasi & OCR Dokumen",
     detailservice:
-      "Teknologi Optical Character Recognition (OCR) kami memungkinkan pustakawan atau staf dokumentasi memindai metadata buku secara otomatis melalui kamera ponsel. Solusi ini telah digunakan di berbagai perpustakaan di Jawa Timur.",
+      "Teknologi Optical Character Recognition (OCR) kami memungkinkan digitalisasi dokumen fisik secara otomatis melalui kamera ponsel. Sistem ini dapat memindai berbagai jenis dokumen seperti buku, arsip, surat, formulir, dan metadata lainnya untuk keperluan digitalisasi. Solusi ini telah digunakan di berbagai perpustakaan dan instansi di Jawa Timur.",
   },
   {
     id: 4,

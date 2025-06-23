@@ -4,29 +4,30 @@ import DetailServices from "./DetailServices";
 const dataServices = [
   {
     id: 1,
-    service: "Digital Marketing",
+    service: "Pembuatan Aplikasi Mobile",
     detailservice:
-      "We believe every business is unique. That's why we offer personalized digital marketing solutions, ranging from search engine optimization to interactive social media management. Let's grow together.",
+      "Kami mengembangkan aplikasi Android & iOS yang responsif, sesuai kebutuhan pengguna, dan mendukung berbagai fitur canggih seperti GPS, notifikasi, autentikasi, hingga integrasi API. Cocok untuk sekolah, perpustakaan, UMKM, hingga pemerintahan.",
   },
   {
     id: 2,
-    service: "Branding",
+    service: "Pembuatan Website & Dashboard Admin",
     detailservice:
-      "We believe a strong brand starts with a solid strategy. Our research-driven approach ensures your brand identity resonates with your audience and stands the test of time. Let us architect your success.",
+      "Kami membangun website profesional untuk presentasi bisnis, sekolah, layanan publik, serta dashboard admin untuk pengelolaan data real-time dengan tampilan user-friendly dan performa optimal.",
   },
   {
     id: 3,
-    service: "Web design & development",
+    service: "Sistem Otomatisasi & OCR Buku",
     detailservice:
-      "We don't just build websites, We craft powerful results-driven digital experiences for your business. We understand that your website is the heart of your online presence, and we're dedicated to ensuring it not only looks fantastic but also functions flawlessly and drives business growth.",
+      "Teknologi Optical Character Recognition (OCR) kami memungkinkan pustakawan atau staf dokumentasi memindai metadata buku secara otomatis melalui kamera ponsel. Solusi ini telah digunakan di berbagai perpustakaan di Jawa Timur.",
   },
   {
     id: 4,
-    service: "Marketing Automation",
+    service: "Konsultasi & Riset Transformasi Digital",
     detailservice:
-      "Stop guessing, start knowing. We utilize the power of data within Marketing Automation platforms to continuously optimize your campaigns, improve ROI, and achieve sustainable growth.",
+      "Kami membuka layanan konsultasi untuk digitalisasi proses manual di institusi Anda, termasuk riset sistem, rancangan UX/UI, hingga implementasi sistem berbasis web dan mobile.",
   },
 ];
+
 
 const Services = () => {
   const [showSelectedS, setShowSelectedS] = useState(null);
@@ -41,7 +42,7 @@ const Services = () => {
     items-center justify-center px-4 md:px-30 py-10 md:py-20 overflow-x-hidden"
     >
       <img
-        src="../src/assets/image4.webp"
+        src="../src/assets/group.svg"
         loading="lazy"
         className="w-[391px] h-[341px] object-fill"
       />

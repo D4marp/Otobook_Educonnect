@@ -1,12 +1,12 @@
 import bluearrow from "../assets/bluearrow.svg";
 import { motion } from "framer-motion";
 
-const text1 = "Partnering strategically,\nExpanding what's possible";
+const text1 = "Bermitra secara strategis,\nMemperluas yang mungkin";
 const text2 =
-  " Since its inception in 2020, Corpyor has consistently provided robust" +
-  " digital marketing solutions. Our longevity in the industry underscores" +
-  "our reliability and commitment to delivering effective and dependable" +
-  "services to our clients and potential collaborators.";
+  "Sejak diluncurkan pada tahun 2024, Otobook EduConnect telah menjadi mitra terpercaya dalam " +
+  "memberikan solusi digital yang inovatif dan dapat diskalakan. Pertumbuhan berkelanjutan kami " +
+  "mencerminkan komitmen terhadap keandalan, keunggulan, dan membantu klien mengubah ide menjadi " +
+  "produk digital yang berdampak.";
 
 const About = () => {
   const containerVariants = {
@@ -57,10 +57,7 @@ const About = () => {
           ))}
         </motion.p>
         <div className="relative flex gap-2 items-center cursor-pointer">
-          <button className=" flex font-inter text-base leading-[150%] cursor-pointer md:text-base text-primary">
-            More about coryor
-          </button>
-          <img src={bluearrow} loading="lazy" className="size-5 lg:size-5 " />
+        
         </div>
       </div>
     </div>

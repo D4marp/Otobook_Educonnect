@@ -6,15 +6,15 @@ const OurTeam = () => {
   return (
     <div className="relative min-h-screen bg-[#1a1a1a] overflow-hidden ">
       <div className="relative flex h-screen justify-center items-center">
-        <div className="relative z-10 md:h-[210px] md:w-[700px] text-center flex flex-col h-full w-full  justify-center items-center px-4">
+        <div className="relative z-10 md:h-[210px] md:w-[700px] text-center flex flex-col h-full w-full justify-center items-center px-4">
           <span className="text-white font-inter text-base leading-[150%] md:text-lg md:leading-[140%] md:tracking-lg align-middle pb-5 md:pb-10">
-            At Corpyor, our team's positive energy fuels your digital success.
-            Collaborate with our friendly experts in the digital marketing
-            realm.
+            Di Otobook EduConnect, tim kami adalah penggerak utama transformasi digital di dunia pendidikan dan layanan publik.
+            <br className="hidden md:block" />
+            Kami percaya bahwa kolaborasi, semangat belajar, dan teknologi dapat menciptakan perubahan nyata.
           </span>
           <Button
             paddingx="px-6"
-            title="Join our team"
+            title="Gabung Bersama Kami"
             icon={iconarrow}
             bgcolor="bg-primary"
             textcolor="text-white"
@@ -25,7 +25,8 @@ const OurTeam = () => {
           <img
             src={picturebg}
             loading="lazy"
-            className="h-full w-full object-cover "
+            alt="Tim Otobook"
+            className="h-full w-full object-cover"
           />
         </div>
       </div>

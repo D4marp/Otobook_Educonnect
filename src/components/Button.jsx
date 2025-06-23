@@ -1,6 +1,7 @@
 const Button = (props) => {
   return (
     <button
+      onClick={props.onClick}
       className={`relative flex flex-col ${props.paddingx} h-12 ${props.bgcolor} ${props.textcolor} rounded-lg overflow-hidden group cursor-pointer`}
     >
       <span className="absolute inset-0 gap-2 md:gap-4 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">

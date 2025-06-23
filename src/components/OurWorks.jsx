@@ -32,6 +32,31 @@ const dataWorks = [
     name: "Kesapian",
     detailWork: "Digital Marketing",
   },
+
+  {
+    id: 6,
+    imageSource: "/src/assets/otobook.png",
+    name: "Otobook",
+    detailWork: "Mobile Apps",
+  },
+  {
+    id: 7,
+    imageSource: "/src/assets/vocadia.png",
+    name: "Vocadia",
+    detailWork: "Mobile Apps",
+  },
+  {
+    id: 8,
+    imageSource: "/src/assets/viva.png",
+    name: "Viva Hr",
+    detailWork: "Mobile Apps",
+  },
+  {
+    id: 9,
+    imageSource: "/src/assets/stdyo.png",
+    name: "studyo maths",
+    detailWork: "Mobile Apps",
+  },
 ];
 
 const OurWorks = () => {

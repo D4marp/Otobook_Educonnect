@@ -2,13 +2,15 @@ import { motion } from "framer-motion";
 
 const OurClients = () => {
   const logoClients = [
-    "/src/assets/logo01.svg",
-    "/src/assets/logo02.svg",
-    "/src/assets/logo03.svg",
-    "/src/assets/logo04.svg",
-    "/src/assets/logo05.svg",
-    "/src/assets/logo06.svg",
+    "/src/assets/viva.webp",
+    "/src/assets/pens.png",
+    "/src/assets/nss.png",
+    "/src/assets/perpus.png",
+    "/src/assets/studyo.png",
+    "/src/assets/tulung.png",
     "/src/assets/logo07.svg",
+    "/src/assets/fm_blue.png",
+    "/src/assets/download.png",
   ];
 
   return (

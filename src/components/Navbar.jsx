@@ -48,8 +48,8 @@ const Navbar = () => {
             src={`${scrollPosition ? "/src/assets/bluelogo.svg" : "/src/assets/logoputih.svg"}`}
             className="cursor-pointer"
           />
-          {/* Dekstop Nav */}
-          <div className="flex items-center  ">
+ 
+          <div className="flex items-center">
             <div className="hidden md:block">
               {navItems.map((items, i) => (
                 <a
@@ -64,12 +64,13 @@ const Navbar = () => {
               <Button
                 paddingx="px-6"
                 title="Let's Talk"
-                icon="/src/assets/arrow.svg"
                 bgcolor="bg-primary"
                 textcolor="text-white"
+                onClick={() => window.open('https://wa.me/089601321118', '_blank')}
               />
             </div>
           </div>
+          
           {/* Mobile Nav*/}
           <div className="block sm:hidden">
             <button onClick={() => setMenuOpen(!menuOpen)}>

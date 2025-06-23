@@ -29,17 +29,24 @@ const Hero = () => {
       <div className="flex h-full w-full justify-between items-end px-4 py-10 z-10 lg:py-12 lg:px-30">
         <div className="flex flex-col justify-end">
           <h1 className="text-xl font-inter tracking-xl leading-[120%] md:leading-[120%] md:tracking-2xl text-whitebase md:text-2xl">
-            Beyond ordinary <br /> marketing, We build <br />
-            digital worlds
+            Kami Membangun <br /> Solusi Digital <br /> Untuk Kebutuhan Nyata
           </h1>
           <div className="flex gap-5">
             <SocialProof
               src={icon1}
-              jumlah="200+"
-              detail="Trusted loyal clients"
+              jumlah="30+"
+              detail="Institusi & Perpustakaan Dibantu"
             />
-            <SocialProof src={icon2} jumlah="200+" detail="Projects done" />
-            <SocialProof src={icon3} jumlah="50+" detail="Industries covered" />
+            <SocialProof
+              src={icon2}
+              jumlah="40+"
+              detail="Proyek Aplikasi & Website"
+            />
+            <SocialProof
+              src={icon3}
+              jumlah="10+"
+              detail="Sektor Bisnis & Pendidikan"
+            />
           </div>
         </div>
         <div className="flex gap-2 items-center">

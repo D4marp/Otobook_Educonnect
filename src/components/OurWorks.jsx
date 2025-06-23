@@ -117,7 +117,7 @@ const OurWorks = () => {
 
 const Card = ({ card }) => {
   return (
-    <div className="group relative flex flex-col h-fit md:max-h-fit justify-center pt-32 md:pt-30 hover:scale-99 hover:rounded-lg hover:opacity-100 hover:text-primary cursor-pointer transition-all duration-200">
+    <div className="group relative flex flex</div>-col h-fit md:max-h-fit justify-center pt-32 md:pt-30 hover:scale-99 hover:rounded-lg hover:opacity-100 hover:text-primary cursor-pointer transition-all duration-200">
       <div className="relative h-[500px] w-[340px] md:w-[324px] md:h-[504px] mb-2 overflow-hidden rounded-sm">
         <div className="absolute inset-0 bg-[#1a1a1a]/10 group-hover:opacity-0 transition-opacity duration-200 z-10" />
         <img

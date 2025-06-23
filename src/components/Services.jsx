@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import DetailServices from "./DetailServices";
+import groupSvg from "../assets/group.svg";
 
 const dataServices = [
   {
@@ -28,7 +29,6 @@ const dataServices = [
   },
 ];
 
-
 const Services = () => {
   const [showSelectedS, setShowSelectedS] = useState(null);
 
@@ -42,7 +42,7 @@ const Services = () => {
     items-center justify-center px-4 md:px-30 py-10 md:py-20 overflow-x-hidden"
     >
       <img
-        src="../src/assets/group.svg"
+        src={groupSvg}
         loading="lazy"
         className="w-[391px] h-[341px] object-fill"
       />

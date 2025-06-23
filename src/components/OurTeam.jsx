@@ -12,13 +12,19 @@ const OurTeam = () => {
             <br className="hidden md:block" />
             Kami percaya bahwa kolaborasi, semangat belajar, dan teknologi dapat menciptakan perubahan nyata.
           </span>
-          <Button
-            paddingx="px-6"
-            title="Gabung Bersama Kami"
-            icon={iconarrow}
-            bgcolor="bg-primary"
-            textcolor="text-white"
-          />
+          <a 
+            href="https://wa.me/089601321118" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button
+              paddingx="px-6"
+              title="Gabung Bersama Kami"
+              icon={iconarrow}
+              bgcolor="bg-primary"
+              textcolor="text-white"
+            />
+          </a>
         </div>
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-radial from-[#1a1a1a] from-50% to-[#1a1a1a]/10 blur-xs opacity-70" />

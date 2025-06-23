@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import arrowellipse from "../assets/arrowellipse.svg";
 
 const DetailServices = ({ dataServices, onClick, isOpen }) => {
   return (
@@ -17,7 +18,7 @@ const DetailServices = ({ dataServices, onClick, isOpen }) => {
         </motion.h3>
         <img
           loading="lazy"
-          src="/src/assets/arrowellipse.svg"
+          src={arrowellipse}
           className={`ease-in-out duration-300 ${isOpen ? "rotate-45" : "rotate-0"}`}
         />
       </div>

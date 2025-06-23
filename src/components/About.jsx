@@ -6,7 +6,7 @@ const text2 =
   "Sejak diluncurkan pada tahun 2024, Otobook EduConnect telah menjadi mitra terpercaya dalam " +
   "memberikan solusi digital yang inovatif dan dapat diskalakan. Pertumbuhan berkelanjutan kami " +
   "mencerminkan komitmen terhadap keandalan, keunggulan, dan membantu klien mengubah ide menjadi " +
-  "produk digital yang berdampak.";
+  "produk digital yang berdampak. Otobook mendukung dengan harga jasa mulai dari Rp 25.000.";
 
 const About = () => {
   const containerVariants = {

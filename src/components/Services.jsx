@@ -8,24 +8,35 @@ const dataServices = [
     service: "Pembuatan Aplikasi Mobile",
     detailservice:
       "Kami mengembangkan aplikasi Android & iOS yang responsif, sesuai kebutuhan pengguna, dan mendukung berbagai fitur canggih seperti GPS, notifikasi, autentikasi, hingga integrasi API. Cocok untuk sekolah, perpustakaan, UMKM, hingga pemerintahan.",
+    price: "Mulai dari Rp500.000"
   },
   {
     id: 2,
     service: "Pembuatan Website & Dashboard Admin",
     detailservice:
       "Kami membangun website profesional untuk presentasi bisnis, sekolah, layanan publik, serta dashboard admin untuk pengelolaan data real-time dengan tampilan user-friendly dan performa optimal.",
+    price: "Mulai dari Rp 500.000"
   },
   {
     id: 3,
-    service: "Sistem Otomatisasi & OCR Dokumen",
+    service: "Website UMKM",
     detailservice:
-      "Teknologi Optical Character Recognition (OCR) kami memungkinkan digitalisasi dokumen fisik secara otomatis melalui kamera ponsel. Sistem ini dapat memindai berbagai jenis dokumen seperti buku, arsip, surat, formulir, dan metadata lainnya untuk keperluan digitalisasi. Solusi ini telah digunakan di berbagai perpustakaan dan instansi di Jawa Timur.",
+      "Website khusus untuk UMKM dengan fitur katalog produk, galeri, informasi kontak, dan profil usaha. Solusi terjangkau untuk meningkatkan online presence bisnis Anda.",
+    price: "Mulai dari Rp 100.000"
   },
   {
     id: 4,
+    service: "Sistem Otomatisasi & OCR Dokumen",
+    detailservice:
+      "Teknologi Optical Character Recognition (OCR) kami memungkinkan digitalisasi dokumen fisik secara otomatis melalui kamera ponsel. Sistem ini dapat memindai berbagai jenis dokumen seperti buku, arsip, surat, formulir, dan metadata lainnya untuk keperluan digitalisasi. Solusi ini telah digunakan di berbagai perpustakaan dan instansi di Jawa Timur.",
+    price: "Mulai dari Rp 300.000"
+  },
+  {
+    id: 5,
     service: "Konsultasi & Riset Transformasi Digital",
     detailservice:
       "Kami membuka layanan konsultasi untuk digitalisasi proses manual di institusi Anda, termasuk riset sistem, rancangan UX/UI, hingga implementasi sistem berbasis web dan mobile.",
+    price: "Mulai dari Rp 25.000"
   },
 ];
 
@@ -54,6 +65,7 @@ const Services = () => {
               dataServices={d}
               onClick={() => showService(index)}
               isOpen={showSelectedS === index}
+              showPrice={true}
             />
           );
         })}
